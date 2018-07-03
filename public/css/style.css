@@ -9,10 +9,23 @@ a#save {
 .card-action a {
     color: black !important;
 }
-body {
-    background-image: url("../images/stardust.png");
+#box {
+    background-image: url("https://fthmb.tqn.com/Pla-EPiPKm0KSM5H7_pHFE8mWNQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-498928946-59cd1dd3af5d3a0011d3a87e.jpg");
+    height: 100%;
+    background-repeat: none;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    overflow: auto;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    display: flex;
+    background-size: cover;
+    z-index: -1;
 }
 
 .delete-button {
     margin-left: 10px;
+}
+body, html {
+    height: 100%;
 }
